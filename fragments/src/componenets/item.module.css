@@ -1,0 +1,25 @@
+.kg-item {
+  background-color: rgb(238, 191, 229);
+  margin: 4px;
+  padding: 3px;
+  list-style: none;
+  border-radius: 5px;
+
+}
+
+
+.kg-text {
+
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0.9);
+  margin: 15px;
+  padding: 12px;
+  text-justify: auto;
+
+}
+
+.button {
+  float: right;
+
+}
