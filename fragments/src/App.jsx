@@ -20,12 +20,14 @@ function App() {
   };
 
   return (
-    <Container>
-      <h1 className="food-heading">Healthy Food</h1>
-      <FoodInput handleOnKeyDown={onKeyDown}></FoodInput>
-      <ErrorMessage items={fooditems}></ErrorMessage>
-      <Fooditems items={fooditems}></Fooditems>
-    </Container>
+    <center>
+      <Container>
+        <h1 className="food-heading">Healthy Food</h1>
+        <FoodInput handleOnKeyDown={onKeyDown}></FoodInput>
+        <ErrorMessage items={fooditems}></ErrorMessage>
+        <Fooditems items={fooditems}></Fooditems>
+      </Container>
+    </center>
   );
 }
 
